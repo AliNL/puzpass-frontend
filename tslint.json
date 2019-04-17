@@ -8,6 +8,8 @@
     ]
   },
   "rules": {
-    "semicolon": [ true, "always", "ignore-bound-class-methods" ]
+    "semicolon": [ true, "always", "ignore-bound-class-methods" ],
+    "variable-name": [true, "allow-pascal-case"],
+    "import-name": [false]
   }
 }

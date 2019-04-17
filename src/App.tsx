@@ -1,21 +1,12 @@
 import * as React from 'react';
-import './App.css';
-import logoSvg from './logo.svg';
+import Header from './containers/Header';
+import Home from './containers/Home';
 
-class App extends React.Component {
-  public render() {
-    return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logoSvg} className="App-logo" alt="logo"/>
-          <h1 className="App-title">Welcome to React</h1>
-        </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.tsx</code> and save to reload.
-        </p>
-      </div>
-    );
-  }
-}
+const App = () => (
+  <>
+    <Header/>
+    <Home/>
+  </>
+);
 
 export default App;
